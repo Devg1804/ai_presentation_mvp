@@ -42,7 +42,7 @@ const PresentationEditor = () => {
     try {
       // API call to generate slides (from first file)
       const response = await axios.post(
-        "http://localhost:8000/generate-slides",
+        "https://ai-presentation-mvp.onrender.com/generate-slides",
         {
           topic,
           num_slides: numSlides,
